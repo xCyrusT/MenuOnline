@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "363766212863",
+    "firebase_url": "https://dnumenuonline-xcyrust.firebaseio.com",
+    "project_id": "dnumenuonline-xcyrust",
+    "storage_bucket": "dnumenuonline-xcyrust.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363766212863:android:21057ecb306bde22",
+        "android_client_info": {
+          "package_name": "xcyrust.thulk.menuonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363766212863-3cljursv37d9icmduhliluvr9qou9o1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xcyrust.thulk.menuonline",
+            "certificate_hash": "43b6e83e1be5c4c29685a9900dcdd9151a1b24ba"
+          }
+        },
+        {
+          "client_id": "363766212863-c9ov450ga2eqbvq17p4jt8cppjfb4vhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnqTij3zy8rMr0gz_fzK3wfBsOA_6eYxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363766212863-c9ov450ga2eqbvq17p4jt8cppjfb4vhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

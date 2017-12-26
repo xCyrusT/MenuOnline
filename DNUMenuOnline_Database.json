@@ -1,0 +1,78 @@
+{
+  "User": {
+    "0987": {
+      "Name": "Bruno",
+      "Password": "123456"
+    },
+    "0986": {
+      "Name": "Mars",
+      "Password": "123456"
+    }
+  },
+  
+  "Category": {
+    "01": {
+      "Name": "Lẩu",
+      "Image": "https://media.foody.vn/video/s800x450/foody-487878787-636008878254962862.jpg"
+    },
+    "02": {
+      "Name": "Rau",
+      "Image": "http://ducrauquan.com/files/sanpham/106/1/jpg/rau-xao-theo-mua.jpg"
+    },
+    "03": {
+      "Name": "Bò",
+      "Image": "http://iunauan.com/images/1024x483/maxresdefault-iunauan.com-072501.jpg"
+    },
+    "04": {
+      "Name": "Cá",
+      "Image": "http://blogcauca.com/wp-content/uploads/2017/08/1494411192-149438783396554-ca-loc-nuong-trui.jpg"
+    },
+    "05": {
+      "Name": "Dê",
+      "Image": "http://giadinh.vcmedia.vn/2015/1-16685-20150207065936-1423277383390.jpg"
+    }
+  },
+  
+  "Food": {
+	"01": {
+		"Name": "Lẩu thập cẩm",
+		"Image": "https://giadinh.tv/wp-content/uploads/2016/10/mon-lau-thap-cam-hap-dan-e1477837646351.jpg",
+		"Description": "Gồm có gà ta, tôm, ngao, thịt bò, đậu phụ, rau, nấm tươi, mỳ tôm, ...",
+		"Price": "400000",
+		"Discount": "0",
+		"MenuId": "01"
+	},
+	"02": {
+		"Name": "Lẩu riêu cua",
+		"Image": "http://vivuhanoi.com/wp-content/uploads/2016/04/dfdg.png",
+		"Description": "Gồm có cua đồng, sườn sụn, bắp bò, đậu phụ, giò tai, bún, rau, . . .",
+		"Price": "350000",
+		"Discount": "0",
+		"MenuId": "01"
+	},
+	"03": {
+		"Name": "Rau muống xào tỏi",
+		"Image": "https://3.bp.blogspot.com/-5aXnboE8jlA/WE4E1icw08I/AAAAAAAATXY/KJ25b7w0S2Ik5D8u1M2RIWvmjwwzkadhwCLcB/s1600/rau-muong-xao-toi.jpg",
+		"Description": "Rau muống xào tỏi",
+		"Price": "30000",
+		"Discount": "0",
+		"MenuId": "02"
+	},
+	"04": {
+		"Name": "Nộm sứa xoài xanh",
+		"Image": "http://cachlammoi.com/wp-content/uploads/2017/06/C%C3%A1ch-l%C3%A0m-g%E1%BB%8Fi-s%E1%BB%A9a-xo%C3%A0i-xanh.jpg",
+		"Description": "Nộm sứa xoài xanh",
+		"Price": "50000",
+		"Discount": "0",
+		"MenuId": "02"
+	},
+	"05": {
+		"Name": "Bê xào xả ớt",
+		"Image": "http://product.hstatic.net/1000179260/product/thit-de-xao-sa-ot-123nau.com_.jpg",
+		"Description": "Bê xào xả ớt",
+		"Price": "80000",
+		"Discount": "0",
+		"MenuId": "03"
+	}
+  }
+}

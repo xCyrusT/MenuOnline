@@ -38,7 +38,7 @@ public class SignUp extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 final ProgressDialog mDialog = new ProgressDialog(SignUp.this);
-                mDialog.setMessage("Please wait . . .");
+                mDialog.setMessage("Vui lòng chờ . . .");
                 mDialog.show();
 
                 table_user.addValueEventListener(new ValueEventListener() {
@@ -47,13 +47,13 @@ public class SignUp extends AppCompatActivity {
                         // Check if already phone in database
                         if (dataSnapshot.child(edtPhone.getText().toString()).exists()){
                             mDialog.dismiss();
-                            Toast.makeText(SignUp.this, "The phone number already register !!!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignUp.this, "Số điện thoại đã đăng ký !!!", Toast.LENGTH_SHORT).show();
                         }
                         else {
                             mDialog.dismiss();
-                            User user = new User(edtName.getText().toString(), edtPass.getText().toString());
+                            User user = new User(edtName.getText().toString(), edtPass.getText().toString(), edtPhone.getText().toString());
                             table_user.child(edtPhone.getText().toString()).setValue(user);
-                            Toast.makeText(SignUp.this, "Sign up successfully !", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignUp.this, "Đăng ký thành công !", Toast.LENGTH_SHORT).show();
                             finish();
                         }
                     }

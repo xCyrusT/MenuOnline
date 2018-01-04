@@ -40,7 +40,7 @@ public class SignIn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 final ProgressDialog mDialog = new ProgressDialog(SignIn.this);
-                mDialog.setMessage("Please wait . . .");
+                mDialog.setMessage("Vui lòng chờ . . .");
                 mDialog.show();
 
                 table_user.addValueEventListener(new ValueEventListener() {
@@ -52,6 +52,8 @@ public class SignIn extends AppCompatActivity {
 
                             // Get user information
                             User user = dataSnapshot.child(edtPhone.getText().toString()).getValue(User.class);
+                            // set phone
+                            user.setPhone(edtPhone.getText().toString());
                             if (user.getPassword().equals(edtPass.getText().toString())){
                                 {
                                     Intent homeIntent = new Intent(SignIn.this, Home.class);
@@ -61,12 +63,12 @@ public class SignIn extends AppCompatActivity {
                                 }
                             }
                             else {
-                                Toast.makeText(SignIn.this, "Sign in failed !!!", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SignIn.this, "Đăng nhập thất bại !!!", Toast.LENGTH_SHORT).show();
                             }
                         }
                         else {
                             mDialog.dismiss();
-                            Toast.makeText(SignIn.this, "User not found in database !!!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignIn.this, "Người dùng không có trong cơ sở dữ liệu !!!", Toast.LENGTH_SHORT).show();
                         }
                     }
 

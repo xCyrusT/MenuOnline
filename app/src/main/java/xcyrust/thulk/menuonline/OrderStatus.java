@@ -50,6 +50,7 @@ public class OrderStatus extends AppCompatActivity {
                 viewHolder.txtOrderStatus.setText(convertCodeToStatus(model.getStatus()));
                 viewHolder.txtOrderPhone.setText(model.getPhone());
                 viewHolder.txtOrderTable.setText(model.getTable());
+                viewHolder.txtOrderTotal.setText(model.getTotal());
             }
         };
 

@@ -13,7 +13,7 @@ import xcyrust.thulk.menuonline.R;
 
 public class OrderViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-    public TextView txtOrderID, txtOrderStatus, txtOrderPhone, txtOrderTable;
+    public TextView txtOrderID, txtOrderStatus, txtOrderPhone, txtOrderTable, txtOrderTotal;
     private ItemClickListener itemClickListener;
 
     public OrderViewHolder(View itemView) {
@@ -23,6 +23,7 @@ public class OrderViewHolder extends RecyclerView.ViewHolder implements View.OnC
         txtOrderStatus = (TextView) itemView.findViewById(R.id.order_status);
         txtOrderPhone = (TextView) itemView.findViewById(R.id.order_phone);
         txtOrderTable = (TextView) itemView.findViewById(R.id.order_table);
+        txtOrderTotal = (TextView) itemView.findViewById(R.id.order_total);
 
         itemView.setOnClickListener(this);
     }

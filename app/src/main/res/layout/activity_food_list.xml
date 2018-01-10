@@ -6,10 +6,20 @@
     android:layout_height="match_parent"
     tools:context="xcyrust.thulk.menuonline.FoodList">
 
-    <android.support.v7.widget.RecyclerView
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/searchBar"
+        android:layout_alignParentTop="true"
+        app:mt_speechMode="false"
+        app:mt_hint="Nhập món ăn"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/searchBar"
         android:id="@+id/recycler_food"
         android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         />
 </android.support.constraint.ConstraintLayout>
